@@ -1,0 +1,91 @@
+*
+*
+G04 PADS VX.2.4 Build Number: 11282995 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "BS66FV340_EVM_V1.0.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD042C,0.005*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name BS66FV340_EVM_V1.0.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name BS66FV340_EVM_V1.0.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name BS66FV340_EVM_V1.0.pcb - circuitry*
+%LPD*%
+*
+G54D10*
+G54D42*
+G01X40945Y194488D02*
+G75*
+G03X37008Y190551I-0J-3937D01*
+G01X40945Y194488D02*
+X159055D01*
+X162992Y190551D02*
+G03X159055Y194488I-3937J0D01*
+G01X162992Y190551D02*
+Y9449D01*
+X159055Y5512D02*
+G03X162992Y9449I0J3937D01*
+G01X159055Y5512D02*
+X40945D01*
+X37008Y9449D02*
+G03X40945Y5512I3937J-0D01*
+G01X37008Y9449D02*
+Y190551D01*
+G74*
+X0Y0D02*
+M02*
